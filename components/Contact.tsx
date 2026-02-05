@@ -6,33 +6,28 @@ const CONTACT_INFO = [
     {
         Icon: MailIcon,
         label: "Email",
-        value: "contact@Mohammed Alsaqqaf.com",
-        href: "mailto:contact@Mohammed Alsaqqaf.com",
+        value: "mohammed.dev0xinj@gmail.com",
+        href: "mailto:mohammed.dev0xinj@gmail.com",
     },
     {
         Icon: PhoneIcon,
         label: "Phone",
-        value: "+255 688 164 510",
-        href: "tel:+255688164510",
+        value: "+967 779 080 460",
+        href: "tel:+967779080460",
     },
     {
         Icon: WhatsappIcon,
         label: "WhatsApp",
-        value: "+255 742 631 101",
-        href: "https://wa.me/255742631101",
+        value: "+967 779080460",
+        href: "https://wa.me/967779080460",
     },
     {
         Icon: GithubIcon,
         label: "GitHub",
-        value: "Eliahhango",
-        href: "https://github.com/Eliahhango",
+        value: "Mohammed-Alsaqqaf",
+        href: "https://github.com/Mohammed-Alsaqqaf",
     },
-    {
-        Icon: YoutubeIcon,
-        label: "YouTube",
-        value: "@eliahhango",
-        href: "https://youtube.com/@eliahhango",
-    },
+    
 ];
 
 const Contact: React.FC = () => {

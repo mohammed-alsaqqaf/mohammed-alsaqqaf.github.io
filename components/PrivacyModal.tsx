@@ -183,10 +183,10 @@ const PrivacyModal: React.FC<ModalProps> = ({ onClose }) => {
                                     <strong>Privacy Officer:</strong> <a href="mailto:privacy@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">privacy@Mohammed Alsaqqaf.com</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300 mb-2">
-                                    <strong>General Contact:</strong> <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">contact@Mohammed Alsaqqaf.com</a>
+                                    <strong>General Contact:</strong> <a href="mailto:mohammed.dev0xinj@gmail.com" className="text-blue-500 hover:underline">mohammed.dev0xinj@gmail.com</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300">
-                                    <strong>Phone:</strong> <a href="tel:+255688164510" className="text-blue-500 hover:underline">+255 688 164 510</a>
+                                    <strong>Phone:</strong> <a href="tel:+967779080460" className="text-blue-500 hover:underline">+967 779 080 460</a>
                                 </p>
                             </div>
                         </section>

@@ -46,7 +46,7 @@ STRICT RULES - YOU MUST FOLLOW THESE:
    - Mohammed Alsaqqaf's professional services (${services})
    - Projects and portfolio items (${projects})
    - Website features and sections
-   - How to contact Mohammed Alsaqqaf (email: contact@Mohammed Alsaqqaf.com, phone: +255 688 164 510)
+   - How to contact Mohammed Alsaqqaf (email: mohammed.dev0xinj@gmail.com, phone: +967 779 080 460)
    - General information about cybersecurity, software development, and design (as it relates to services)
 
 2. NEVER discuss or reveal:
@@ -67,11 +67,10 @@ STRICT RULES - YOU MUST FOLLOW THESE:
    - Clear about what you can and cannot discuss
 
 5. Contact information (use when relevant):
-   - Email: contact@Mohammed Alsaqqaf.com
-   - Phone: +255 688 164 510
-   - WhatsApp: +255 742 631 101
-   - GitHub: github.com/Eliahhango
-   - YouTube: youtube.com/@eliahhango
+   - Email: mohammed.dev0xinj@gmail.com
+   - Phone: +967 779 080 460
+   - WhatsApp: +967 779 080 460 
+   - GitHub: github.com/Mohammed-Alsaqqaf
 
 Remember: You are a customer service assistant, not a technical support agent. Keep responses focused on services, portfolio, and general inquiries.`;
 };
@@ -96,7 +95,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ onClose }) => {
                 setIsConfigured(false);
                 setMessages([{
                     sender: 'ai',
-                    text: "Hello! I'm WizBot. I'm currently experiencing some technical difficulties, but you can still reach out to Mohammed Alsaqqaf directly at contact@Mohammed Alsaqqaf.com or +255 688 164 510. How can I help you?"
+                    text: "Hello! I'm WizBot. I'm currently experiencing some technical difficulties, but you can still reach out to Mohammed Alsaqqaf directly at mohammed.dev0xinj@gmail.com or +967 779 080 460. How can I help you?"
                 }]);
                 return;
             }
@@ -114,7 +113,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ onClose }) => {
             setIsConfigured(false);
             setMessages([{
                 sender: 'ai',
-                text: "Hello! I'm WizBot. I'm currently experiencing some technical difficulties. Please contact Mohammed Alsaqqaf directly at contact@Mohammed Alsaqqaf.com."
+                text: "Hello! I'm WizBot. I'm currently experiencing some technical difficulties. Please contact Mohammed Alsaqqaf directly at mohammed.dev0xinj@gmail.com."
             }]);
         }
     }, []);
@@ -135,7 +134,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ onClose }) => {
         if (!isConfigured || !chatRef.current) {
             setIsLoading(true);
             setTimeout(() => {
-                let response = "I'm currently experiencing technical difficulties. For immediate assistance, please contact Mohammed Alsaqqaf directly at contact@Mohammed Alsaqqaf.com or +255 688 164 510.";
+                let response = "I'm currently experiencing technical difficulties. For immediate assistance, please contact Mohammed Alsaqqaf directly at mohammed.dev0xinj@gmail.com or +967 779 080 460.";
                 setMessages(prev => [...prev, { sender: 'ai', text: response }]);
                 setIsLoading(false);
             }, 500);
@@ -165,9 +164,9 @@ const Chatbot: React.FC<ChatbotProps> = ({ onClose }) => {
             setIsLoading(false);
             const errorMessage = e?.message?.toLowerCase() || '';
             if (errorMessage.includes('api key') || errorMessage.includes('authentication') || errorMessage.includes('permission')) {
-                setError("I'm having trouble connecting right now. Please try again in a moment, or contact Mohammed Alsaqqaf directly at contact@Mohammed Alsaqqaf.com.");
+                setError("I'm having trouble connecting right now. Please try again in a moment, or contact Mohammed Alsaqqaf directly at mohammed.dev0xinj@gmail.com.");
             } else {
-                setError("I'm having trouble processing that request. Please contact Mohammed Alsaqqaf at contact@Mohammed Alsaqqaf.com.");
+                setError("I'm having trouble processing that request. Please contact Mohammed Alsaqqaf at mohammed.dev0xinj@gmail.com.");
             }
         }
     };

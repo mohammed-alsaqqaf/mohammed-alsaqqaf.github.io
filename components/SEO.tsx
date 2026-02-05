@@ -84,8 +84,8 @@ const SEO: React.FC<SEOProps> = ({ title = DEFAULTS.title, description = DEFAULT
       image: 'https://files.catbox.moe/qgbtyt.png',
       jobTitle: 'Cybersecurity Expert & Software Architect',
       description: 'Visionary technologist, hacker, and creative mind. Expertise in cybersecurity, software development, UI/UX design, and architectural design.',
-      email: 'contact@Mohammed Alsaqqaf.com',
-      telephone: '+255688164510',
+      email: 'mohammed.dev0xinj@gmail.com',
+      telephone: '+967779080460',
       sameAs: [
         'https://github.com/Eliahhango',
         'https://youtube.com/@eliahhango'

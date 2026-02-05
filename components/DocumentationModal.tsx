@@ -163,7 +163,7 @@ const DocumentationModal: React.FC<ModalProps> = ({ onClose }) => {
                                     <ExternalLinkIcon className="w-4 h-4 ml-auto text-slate-500 dark:text-gray-400" />
                                 </a>
                                 <a 
-                                    href="mailto:contact@Mohammed Alsaqqaf.com" 
+                                    href="mailto:mohammed.dev0xinj@gmail.com" 
                                     className="flex items-center gap-2 p-3 bg-slate-100 dark:bg-gray-800 rounded-lg hover:bg-slate-200 dark:hover:bg-gray-700 transition-colors"
                                 >
                                     <MailIcon className="w-5 h-5 text-slate-700 dark:text-gray-300" />
@@ -180,10 +180,10 @@ const DocumentationModal: React.FC<ModalProps> = ({ onClose }) => {
                             </p>
                             <div className="bg-slate-100 dark:bg-gray-900 p-4 rounded-lg mb-4">
                                 <p className="text-slate-700 dark:text-gray-300 mb-2">
-                                    <strong>Email:</strong> <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">contact@Mohammed Alsaqqaf.com</a>
+                                    <strong>Email:</strong> <a href="mailto:mohammed.dev0xinj@gmail.com" className="text-blue-500 hover:underline">mohammed.dev0xinj@gmail.com</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300 mb-2">
-                                    <strong>Phone:</strong> <a href="tel:+255688164510" className="text-blue-500 hover:underline">+255 688 164 510</a>
+                                    <strong>Phone:</strong> <a href="tel:+967779080460" className="text-blue-500 hover:underline">+967 779 080 460</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300">
                                     <strong>Security Inquiries:</strong> <a href="mailto:security@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">security@Mohammed Alsaqqaf.com</a>

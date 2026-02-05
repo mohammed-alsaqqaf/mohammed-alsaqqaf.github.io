@@ -114,8 +114,8 @@ const Terms: React.FC = () => {
               For questions about these Terms, please contact us at:
             </p>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              Email: <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@Mohammed Alsaqqaf.com</a><br />
-              Phone: <a href="tel:+255688164510" className="text-blue-600 dark:text-blue-400 hover:underline">+255 688 164 510</a>
+              Email: <a href="mailto:mohammed.dev0xinj@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline">mohammed.dev0xinj@gmail.com</a><br />
+              Phone: <a href="tel:+967779080460" className="text-blue-600 dark:text-blue-400 hover:underline">+967 779 080 460</a>
             </p>
           </motion.section>
         </motion.div>

@@ -133,7 +133,7 @@ const ContactForm: React.FC = () => {
               value={formData.phone}
               onChange={handleChange}
               className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-              placeholder="+255 688 164 510"
+              placeholder="+967 779 080 460"
             />
           </div>
           <div>

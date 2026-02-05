@@ -96,14 +96,14 @@ const Footer: React.FC<FooterProps> = (props) => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-sm text-slate-600 dark:text-gray-300">
                 <MailIcon className="w-4 h-4 text-blue-500" />
-                <a href="mailto:contact@Mohammed Alsaqqaf.com" className="hover:text-blue-500 transition-colors">
-                  contact@Mohammed Alsaqqaf.com
+                <a href="mailto:mohammed.dev0xinj@gmail.com" className="hover:text-blue-500 transition-colors">
+                  mohammed.dev0xinj@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-sm text-slate-600 dark:text-gray-300">
                 <PhoneIcon className="w-4 h-4 text-blue-500" />
-                <a href="tel:+255688164510" className="hover:text-blue-500 transition-colors">
-                  +255 688 164 510
+                <a href="tel:+967779080460" className="hover:text-blue-500 transition-colors">
+                  +967 779 080 460
                 </a>
               </li>
             </ul>
