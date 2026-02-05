@@ -14,37 +14,37 @@ interface ServiceStatus {
 
 const StatusModal: React.FC<ModalProps> = ({ onClose }) => {
     const [services, setServices] = useState<ServiceStatus[]>([
-        { 
-            name: 'Cybersecurity Services', 
-            status: 'operational', 
-            uptime: '99.9%',
-            description: 'Penetration testing, vulnerability assessments, and security consulting'
-        },
-        { 
-            name: 'Software Development', 
-            status: 'operational', 
-            uptime: '99.8%',
-            description: 'Custom application development and system integration services'
-        },
-        { 
-            name: 'Design Services', 
-            status: 'operational', 
-            uptime: '99.9%',
-            description: 'UI/UX design and system architecture services'
-        },
-        { 
-            name: 'Consulting Services', 
-            status: 'operational', 
-            uptime: '99.7%',
-            description: 'Technology strategy and security planning consultations'
-        },
-        { 
-            name: 'Client Communication', 
-            status: 'operational', 
-            uptime: '99.9%',
-            description: 'Email, phone, and project management systems'
-        },
-    ]);
+    { 
+        name: 'VAPT & Offensive Security', 
+        status: 'operational', 
+        uptime: '99.9%',
+        description: 'Advanced penetration testing, CVE-focused research, and comprehensive vulnerability assessments.'
+    },
+    { 
+        name: 'DevSecOps & Development', 
+        status: 'operational', 
+        uptime: '99.8%',
+        description: 'Secure application development and system integration with a focus on code integrity.'
+    },
+    { 
+        name: 'UI/UX & Secure Architecture', 
+        status: 'operational', 
+        uptime: '99.9%',
+        description: 'Designing intuitive digital interfaces and robust, scalable system infrastructures.'
+    },
+    { 
+        name: 'Strategic Security Consulting', 
+        status: 'operational', 
+        uptime: '99.7%',
+        description: 'Technical strategy, GRC alignment (ISO 27001), and incident response planning.'
+    },
+    { 
+        name: 'Incident Response & Support', 
+        status: 'operational', 
+        uptime: '99.9%',
+        description: '24/7 technical oversight, real-time SOC monitoring, and dedicated client communication.'
+    },
+]);
 
     const getStatusColor = (status: string) => {
         switch (status) {

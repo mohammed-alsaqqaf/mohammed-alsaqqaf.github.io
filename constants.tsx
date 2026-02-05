@@ -93,152 +93,53 @@ export const NAV_LINKS = [
 // --- STATS ---
 export const STATS_DATA: Stat[] = [
     { value: 10, label: 'Years of Experience' },
-    { value: 50, label: 'Projects Completed' },
-    { value: 100, label: 'Happy Clients' },
+    { value: 10, label: 'Projects Completed' },
+    //{ value: 100, label: 'Happy Clients' },
 ];
 
 // --- EXPERTISE ---
 export const EXPERTISE_DATA = [
     {
-        title: 'Cybersecurity & Hacking',
+        title: 'CyberSecurity',
         skills: [
             { name: 'Penetration Testing', Icon: ShieldIcon },
             { name: 'Network Security', Icon: ShieldIcon },
-            { name: 'Ethical Hacking', Icon: ShieldIcon },
+            { name: 'Vulnerability Assessment', Icon: ShieldIcon },
+            { name: 'Soc Analyst T1-3', Icon: ShieldIcon },
         ],
     },
     {
         title: 'Software Development',
         skills: [
-            { name: 'React & TypeScript', Icon: CodeIcon },
-            { name: 'Node.js & Express', Icon: CodeIcon },
+            { name: 'PHP & Laravel', Icon: CodeIcon },
             { name: 'Python & Django', Icon: CodeIcon },
         ],
     },
-    {
-        title: 'Design & Architecture',
-        skills: [
-            { name: 'UI/UX Design', Icon: PaletteIcon },
-            { name: 'System Architecture', Icon: PaletteIcon },
-            { name: 'Graphic Design', Icon: PaletteIcon },
-        ],
-    },
+   
 ];
 
 // --- PROJECTS ---
 export const PROJECTS_DATA: Project[] = [
     {
-        title: 'SecureAuth Platform',
-        description: 'A multi-factor authentication system for enterprise applications.',
-        longDescription: 'Developed a comprehensive multi-factor authentication (MFA) platform providing robust security layers for enterprise-level applications. Features include TOTP, SMS, and biometric authentication methods, along with detailed audit logs and an administrative dashboard for user management.',
-        imageUrl: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        tags: ['Cybersecurity', 'React', 'Node.js', 'MFA'],
-        repoUrl: 'https://github.com/Eliahhango',
+        title: 'Next Generation SOC',
+        description: 'Tool That collect all tools in one tool',
+        longDescription: 'desc.',
+        imageUrl: '',
+        tags: ['Cybersecurity', 'Netowrk Security', 'SOC', 'IDS/IPS'],
+        repoUrl: 'https://github.com/mohammed-alsaqqaf',
         liveUrl: '#',
         caseStudySlug: 'secureauth-platform',
     },
-    {
-        title: 'DataViz Dashboard',
-        description: 'An interactive data visualization tool for business intelligence.',
-        longDescription: 'A powerful and intuitive data visualization dashboard that allows users to connect various data sources, create custom charts and graphs, and gain actionable insights. Built with D3.js and React for a highly interactive and responsive user experience.',
-        imageUrl: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        tags: ['Data Science', 'React', 'D3.js', 'BI'],
-        repoUrl: 'https://github.com/Eliahhango',
-        liveUrl: '#',
-        caseStudySlug: 'dataviz-dashboard',
-    },
-    {
-        title: 'E-commerce Redesign',
-        description: 'A complete UI/UX overhaul for a major online retailer.',
-        longDescription: 'Led the complete redesign of a high-traffic e-commerce website, focusing on improving user experience and conversion rates. The project involved extensive user research, wireframing, prototyping in Figma, and implementing the new design with a modern frontend stack.',
-        imageUrl: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        tags: ['UI/UX', 'Figma', 'Next.js', 'E-commerce'],
-        repoUrl: 'https://github.com/Eliahhango',
-        liveUrl: '#',
-    },
-    {
-        title: 'Architectural Visualization',
-        description: '3D modeling and rendering of a modern residential complex.',
-        longDescription: 'Created a high-fidelity 3D visualization for a proposed residential complex using AutoCAD, Revit, and 3ds Max. The project included detailed architectural models, realistic texturing, and photorealistic renderings for marketing and client presentations.',
-        imageUrl: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        tags: ['Civil Engineering', 'AutoCAD', 'Revit', '3D Modeling'],
-        repoUrl: 'https://github.com/Eliahhango',
-        liveUrl: '#',
-    },
-    {
-        title: 'Network Intrusion Detection',
-        description: 'A custom Snort-based IDS for a corporate network.',
-        longDescription: 'Designed and deployed a network intrusion detection system (IDS) using Snort to monitor and analyze traffic for a medium-sized enterprise. Developed custom rulesets to detect specific threats and integrated the system with a logging and alerting dashboard.',
-        imageUrl: 'https://images.pexels.com/photos/5380649/pexels-photo-5380649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        tags: ['Cybersecurity', 'Networking', 'Snort', 'IDS'],
-        repoUrl: 'https://github.com/Eliahhango',
-        liveUrl: '#',
-    },
-     {
-        title: 'Portfolio Website',
-        description: 'This very website, built to showcase my skills.',
-        longDescription: 'A fully responsive, modern portfolio website built from scratch using React, TypeScript, and Tailwind CSS. Features include a dark/light mode toggle, smooth animations with Framer Motion, and a clean, professional design.',
-        imageUrl: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        tags: ['React', 'TypeScript', 'TailwindCSS', 'Framer Motion'],
-        repoUrl: 'https://github.com/Eliahhango',
-        liveUrl: '#',
-    },
+   
 ];
 
 // --- TESTIMONIALS ---
 export const TESTIMONIALS_DATA = [
     {
         quote: "Mohammed Alsaqqaf's development skill is exceptional. The project was delivered on time and exceeded our expectations in every way. A true professional.",
-        name: 'sirtheprogrammer',
-        company: 'Lead Developer @ codeskytz',
-        avatarUrl: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=160',
+        name: 'Cc',
+        company: 'Cyber Security ENgineer  @ DeepSafer',
+        avatarUrl: '',
     },
-    {
-        quote: "When it comes to cybersecurity, there's no one I trust more. Mohammed Alsaqqaf identified critical vulnerabilities that others missed. Absolutely essential for any serious company.",
-        name: 'Mrcyber',
-        company: 'Security Analyst',
-        avatarUrl: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=160',
-    },
-    {
-        quote: "The user interface they designed was not only beautiful but also incredibly intuitive. Our user engagement has skyrocketed since the redesign. Fantastic work!",
-        name: 'Maria',
-        company: 'UX Director at Creative Minds',
-        avatarUrl: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=160',
-    },
-    {
-        quote: "An absolute genius in problem-solving. No matter how complex the bug, Fixation finds a way to solve it efficiently. A reliable and brilliant developer.",
-        name: 'Fixation',
-        company: 'Senior Engineer',
-        avatarUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=160',
-    },
-    {
-        quote: "Mohammed Alsaqqaf has a hacker's mindset with an architect's precision. Their ability to think outside the box is a huge asset to any project.",
-        name: 'Eliot Anderson',
-        company: 'Cybersecurity Strategist',
-        avatarUrl: 'https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=160',
-    },
-    {
-        quote: "Incredibly creative and strategic. The architectural designs provided were both innovative and practical. A pleasure to collaborate with.",
-        name: 'fazo',
-        company: 'Lead Architect at Urban Designs',
-        avatarUrl: 'https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=160',
-    },
-    {
-        quote: "Working with Mohammed Alsaqqaf was a game-changer. The UI/UX design they delivered was intuitive and aesthetically pleasing, significantly boosting user engagement.",
-        name: 'Emily Johnson',
-        company: 'Product Manager at Creative Solutions',
-        avatarUrl: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=160',
-    },
-    {
-        quote: "The software solution delivered was beyond our expectations. It's scalable, efficient, and beautifully designed. Highly recommended!",
-        name: 'John Smith',
-        company: 'CTO of Innovate Inc.',
-        avatarUrl: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=160',
-    },
-    {
-        quote: "Mohammed Alsaqqaf transformed our security posture. Their expertise is unmatched, and their approach is both professional and innovative.",
-        name: 'Jane Doe',
-        company: 'CEO of TechCorp',
-        avatarUrl: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=160',
-    },
+
 ];
