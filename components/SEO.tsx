@@ -10,11 +10,11 @@ type SEOProps = {
 };
 
 const DEFAULTS = {
-  title: 'EliTechWiz | Cybersecurity Expert & Software Architect',
+  title: 'Mohammed Alsaqqaf | Cybersecurity Expert & Software Architect',
   description:
     'Secure, innovative software and design. Cybersecurity, full‑stack engineering, and architecture with impact.',
   image: 'https://files.catbox.moe/qgbtyt.png',
-  url: 'https://www.elitechwiz.site/'
+  url: 'https://www.Mohammed Alsaqqaf.site/'
 };
 
 const SEO: React.FC<SEOProps> = ({ title = DEFAULTS.title, description = DEFAULTS.description, image = DEFAULTS.image, url = DEFAULTS.url, canonical, type = 'website' }) => {
@@ -66,11 +66,11 @@ const SEO: React.FC<SEOProps> = ({ title = DEFAULTS.title, description = DEFAULT
     addSchema('app-schema', {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      name: 'EliTechWiz',
-      url: 'https://www.elitechwiz.site',
+      name: 'Mohammed Alsaqqaf',
+      url: 'https://www.Mohammed Alsaqqaf.site',
       potentialAction: {
         '@type': 'SearchAction',
-        target: 'https://www.elitechwiz.site/?q={search_term_string}',
+        target: 'https://www.Mohammed Alsaqqaf.site/?q={search_term_string}',
         'query-input': 'required name=search_term_string'
       }
     });
@@ -79,12 +79,12 @@ const SEO: React.FC<SEOProps> = ({ title = DEFAULTS.title, description = DEFAULT
     addSchema('person-schema', {
       '@context': 'https://schema.org',
       '@type': 'Person',
-      name: 'EliTechWiz',
-      url: 'https://www.elitechwiz.site',
+      name: 'Mohammed Alsaqqaf',
+      url: 'https://www.Mohammed Alsaqqaf.site',
       image: 'https://files.catbox.moe/qgbtyt.png',
       jobTitle: 'Cybersecurity Expert & Software Architect',
       description: 'Visionary technologist, hacker, and creative mind. Expertise in cybersecurity, software development, UI/UX design, and architectural design.',
-      email: 'contact@elitechwiz.com',
+      email: 'contact@Mohammed Alsaqqaf.com',
       telephone: '+255688164510',
       sameAs: [
         'https://github.com/Eliahhango',

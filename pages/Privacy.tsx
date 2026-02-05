@@ -31,9 +31,9 @@ const Privacy: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <SEO 
-        title="Privacy Policy | EliTechWiz"
-        description="Privacy Policy for EliTechWiz professional services. Learn how we collect, use, and protect your personal information."
-        url="https://www.elitechwiz.site/privacy"
+        title="Privacy Policy | Mohammed Alsaqqaf"
+        description="Privacy Policy for Mohammed Alsaqqaf professional services. Learn how we collect, use, and protect your personal information."
+        url="https://www.Mohammed Alsaqqaf.site/privacy"
       />
       <ScrollProgress />
       <Header activeSection="" />
@@ -61,7 +61,7 @@ const Privacy: React.FC = () => {
           <motion.section variants={itemVariants} className="mb-8">
             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">1. Introduction</h2>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              This Privacy Policy describes how EliTechWiz ("we," "our," or "us") collects, uses, and protects your personal information when you engage with our professional services, including cybersecurity consulting, software development, design services, and when you visit our website or contact us.
+              This Privacy Policy describes how Mohammed Alsaqqaf ("we," "our," or "us") collects, uses, and protects your personal information when you engage with our professional services, including cybersecurity consulting, software development, design services, and when you visit our website or contact us.
             </p>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
               We are committed to protecting your privacy and handling your data with the highest level of security and confidentiality, especially given our expertise in cybersecurity.
@@ -99,7 +99,7 @@ const Privacy: React.FC = () => {
           <motion.section variants={itemVariants} className="mb-8">
             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">5. Your Rights</h2>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              You have the right to access, correct, delete, or port your personal information. You can also opt-out of marketing communications. To exercise these rights, contact us at <a href="mailto:privacy@elitechwiz.com" className="text-blue-600 dark:text-blue-400 hover:underline">privacy@elitechwiz.com</a>.
+              You have the right to access, correct, delete, or port your personal information. You can also opt-out of marketing communications. To exercise these rights, contact us at <a href="mailto:privacy@Mohammed Alsaqqaf.com" className="text-blue-600 dark:text-blue-400 hover:underline">privacy@Mohammed Alsaqqaf.com</a>.
             </p>
           </motion.section>
 
@@ -110,10 +110,10 @@ const Privacy: React.FC = () => {
             </p>
             <div className="bg-slate-100 dark:bg-slate-700/30 p-4 rounded-lg mb-4">
               <p className="text-slate-700 dark:text-gray-300 mb-2">
-                <strong>Privacy Officer:</strong> <a href="mailto:privacy@elitechwiz.com" className="text-blue-600 dark:text-blue-400 hover:underline">privacy@elitechwiz.com</a>
+                <strong>Privacy Officer:</strong> <a href="mailto:privacy@Mohammed Alsaqqaf.com" className="text-blue-600 dark:text-blue-400 hover:underline">privacy@Mohammed Alsaqqaf.com</a>
               </p>
               <p className="text-slate-700 dark:text-gray-300 mb-2">
-                <strong>General Contact:</strong> <a href="mailto:contact@elitechwiz.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@elitechwiz.com</a>
+                <strong>General Contact:</strong> <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@Mohammed Alsaqqaf.com</a>
               </p>
               <p className="text-slate-700 dark:text-gray-300">
                 <strong>Phone:</strong> <a href="tel:+255688164510" className="text-blue-600 dark:text-blue-400 hover:underline">+255 688 164 510</a>

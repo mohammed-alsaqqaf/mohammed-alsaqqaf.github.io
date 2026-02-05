@@ -31,7 +31,7 @@ const DocumentationModal: React.FC<ModalProps> = ({ onClose }) => {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">About Our Services</h2>
                             <p className="mb-4 text-slate-600 dark:text-gray-400 leading-relaxed">
-                                EliTechWiz provides professional technology services including cybersecurity consulting, software development, system architecture, and design services. This documentation provides information about our service offerings, processes, and how to engage with us.
+                                Mohammed Alsaqqaf provides professional technology services including cybersecurity consulting, software development, system architecture, and design services. This documentation provides information about our service offerings, processes, and how to engage with us.
                             </p>
                         </section>
 
@@ -163,7 +163,7 @@ const DocumentationModal: React.FC<ModalProps> = ({ onClose }) => {
                                     <ExternalLinkIcon className="w-4 h-4 ml-auto text-slate-500 dark:text-gray-400" />
                                 </a>
                                 <a 
-                                    href="mailto:contact@elitechwiz.com" 
+                                    href="mailto:contact@Mohammed Alsaqqaf.com" 
                                     className="flex items-center gap-2 p-3 bg-slate-100 dark:bg-gray-800 rounded-lg hover:bg-slate-200 dark:hover:bg-gray-700 transition-colors"
                                 >
                                     <MailIcon className="w-5 h-5 text-slate-700 dark:text-gray-300" />
@@ -180,13 +180,13 @@ const DocumentationModal: React.FC<ModalProps> = ({ onClose }) => {
                             </p>
                             <div className="bg-slate-100 dark:bg-gray-900 p-4 rounded-lg mb-4">
                                 <p className="text-slate-700 dark:text-gray-300 mb-2">
-                                    <strong>Email:</strong> <a href="mailto:contact@elitechwiz.com" className="text-blue-500 hover:underline">contact@elitechwiz.com</a>
+                                    <strong>Email:</strong> <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">contact@Mohammed Alsaqqaf.com</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300 mb-2">
                                     <strong>Phone:</strong> <a href="tel:+255688164510" className="text-blue-500 hover:underline">+255 688 164 510</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300">
-                                    <strong>Security Inquiries:</strong> <a href="mailto:security@elitechwiz.com" className="text-blue-500 hover:underline">security@elitechwiz.com</a>
+                                    <strong>Security Inquiries:</strong> <a href="mailto:security@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">security@Mohammed Alsaqqaf.com</a>
                                 </p>
                             </div>
                         </section>

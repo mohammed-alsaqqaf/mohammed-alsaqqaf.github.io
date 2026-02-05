@@ -10,9 +10,9 @@ const TopBar: React.FC = () => {
             <PhoneIcon className="w-4 h-4" />
             <span>+255 688 164 510</span>
           </a>
-          <a href="mailto:contact@elitechwiz.com" className="flex items-center space-x-2 hover:text-blue-200 transition-colors">
+          <a href="mailto:contact@Mohammed Alsaqqaf.com" className="flex items-center space-x-2 hover:text-blue-200 transition-colors">
             <MailIcon className="w-4 h-4" />
-            <span>contact@elitechwiz.com</span>
+            <span>contact@Mohammed Alsaqqaf.com</span>
           </a>
         </div>
         <div className="text-blue-100 dark:text-blue-300">

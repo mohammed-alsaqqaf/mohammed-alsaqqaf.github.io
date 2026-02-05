@@ -14,7 +14,7 @@ router.post('/subscribe', [
   }
   const { email } = req.body as { email: string };
   const token = crypto.randomBytes(16).toString('hex');
-  const siteUrl = process.env.SITE_URL || 'https://www.elitechwiz.site';
+  const siteUrl = process.env.SITE_URL || 'https://www.Mohammed Alsaqqaf.site';
   const confirmUrl = `${siteUrl}/newsletter/confirm/${token}`;
 
   const existing = await Newsletter.findOne({ email });

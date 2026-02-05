@@ -34,7 +34,7 @@ const PrivacyModal: React.FC<ModalProps> = ({ onClose }) => {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">1. Introduction</h2>
                             <p className="mb-4 text-slate-600 dark:text-gray-400 leading-relaxed">
-                                This Privacy Policy describes how EliTechWiz ("we," "our," or "us") collects, uses, and protects your personal information when you engage with our professional services, including cybersecurity consulting, software development, design services, and when you visit our website or contact us.
+                                This Privacy Policy describes how Mohammed Alsaqqaf ("we," "our," or "us") collects, uses, and protects your personal information when you engage with our professional services, including cybersecurity consulting, software development, design services, and when you visit our website or contact us.
                             </p>
                             <p className="mb-4 text-slate-600 dark:text-gray-400 leading-relaxed">
                                 We are committed to protecting your privacy and handling your data with the highest level of security and confidentiality, especially given our expertise in cybersecurity.
@@ -148,7 +148,7 @@ const PrivacyModal: React.FC<ModalProps> = ({ onClose }) => {
                                 <li><strong>Objection:</strong> Object to certain processing activities</li>
                             </ul>
                             <p className="mb-4 text-slate-600 dark:text-gray-400 leading-relaxed">
-                                To exercise these rights, contact us at <a href="mailto:privacy@elitechwiz.com" className="text-blue-500 hover:underline">privacy@elitechwiz.com</a>.
+                                To exercise these rights, contact us at <a href="mailto:privacy@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">privacy@Mohammed Alsaqqaf.com</a>.
                             </p>
                         </section>
 
@@ -180,10 +180,10 @@ const PrivacyModal: React.FC<ModalProps> = ({ onClose }) => {
                             </p>
                             <div className="bg-slate-100 dark:bg-gray-900 p-4 rounded-lg mb-4">
                                 <p className="text-slate-700 dark:text-gray-300 mb-2">
-                                    <strong>Privacy Officer:</strong> <a href="mailto:privacy@elitechwiz.com" className="text-blue-500 hover:underline">privacy@elitechwiz.com</a>
+                                    <strong>Privacy Officer:</strong> <a href="mailto:privacy@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">privacy@Mohammed Alsaqqaf.com</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300 mb-2">
-                                    <strong>General Contact:</strong> <a href="mailto:contact@elitechwiz.com" className="text-blue-500 hover:underline">contact@elitechwiz.com</a>
+                                    <strong>General Contact:</strong> <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">contact@Mohammed Alsaqqaf.com</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300">
                                     <strong>Phone:</strong> <a href="tel:+255688164510" className="text-blue-500 hover:underline">+255 688 164 510</a>

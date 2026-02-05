@@ -6,7 +6,7 @@ const JOURNEY_DATA = [
     {
         year: '2020 - Present',
         role: 'CEO & Lead Architect',
-        company: 'EliTechWiz Innovations',
+        company: 'Mohammed Alsaqqaf Innovations',
         description: 'Leading a team of innovators to build next-generation security and software solutions. Overseeing all aspects from concept to deployment.',
     },
     {

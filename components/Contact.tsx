@@ -6,8 +6,8 @@ const CONTACT_INFO = [
     {
         Icon: MailIcon,
         label: "Email",
-        value: "contact@elitechwiz.com",
-        href: "mailto:contact@elitechwiz.com",
+        value: "contact@Mohammed Alsaqqaf.com",
+        href: "mailto:contact@Mohammed Alsaqqaf.com",
     },
     {
         Icon: PhoneIcon,

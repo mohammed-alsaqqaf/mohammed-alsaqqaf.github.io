@@ -96,9 +96,9 @@ const Cookies: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <SEO 
-        title="Cookie Policy | EliTechWiz"
+        title="Cookie Policy | Mohammed Alsaqqaf"
         description="Manage your cookie preferences and learn how we use cookies to enhance your browsing experience."
-        url="https://www.elitechwiz.site/cookies"
+        url="https://www.Mohammed Alsaqqaf.site/cookies"
       />
       <ScrollProgress />
       <Header activeSection="" />

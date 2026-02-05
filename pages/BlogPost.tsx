@@ -60,8 +60,8 @@ const BlogPost: React.FC = () => {
           title={apiPost.title}
           description={apiPost.description}
           type="article"
-          canonical={`https://www.elitechwiz.site/blog/${slug}`}
-          url={`https://www.elitechwiz.site/blog/${slug}`}
+          canonical={`https://www.Mohammed Alsaqqaf.site/blog/${slug}`}
+          url={`https://www.Mohammed Alsaqqaf.site/blog/${slug}`}
         />
         <div className="max-w-3xl mx-auto px-4">
           <Link to="/blog" className="text-blue-600 underline">← Back</Link>
@@ -87,8 +87,8 @@ const BlogPost: React.FC = () => {
         title={fm.title}
         description={fm.description}
         type="article"
-        canonical={`https://www.elitechwiz.site/blog/${slug}`}
-        url={`https://www.elitechwiz.site/blog/${slug}`}
+        canonical={`https://www.Mohammed Alsaqqaf.site/blog/${slug}`}
+        url={`https://www.Mohammed Alsaqqaf.site/blog/${slug}`}
       />
       <div className="max-w-3xl mx-auto px-4">
         <Link to="/blog" className="text-blue-600 underline">← Back</Link>

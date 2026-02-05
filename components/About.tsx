@@ -16,7 +16,7 @@ const About: React.FC = () => {
           className="md:w-1/3"
         >
           <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 mx-auto">
-            <img src="https://files.catbox.moe/qgbtyt.png" alt="EliTechWiz" className="rounded-full w-full h-full object-cover shadow-lg border-4 border-blue-500/50" loading="lazy" width="256" height="256" />
+            <img src="https://files.catbox.moe/qgbtyt.png" alt="Mohammed Alsaqqaf" className="rounded-full w-full h-full object-cover shadow-lg border-4 border-blue-500/50" loading="lazy" width="256" height="256" />
           </div>
         </motion.div>
         <motion.div 
@@ -27,7 +27,7 @@ const About: React.FC = () => {
           className="md:w-2/3 text-center md:text-left"
         >
           <p className="text-sm sm:text-base text-slate-600 dark:text-gray-300 mb-4">
-            I am EliTechWiz, a visionary technologist, hacker, and creative mind, driven by innovation and the pursuit of digital excellence. My expertise spans cybersecurity, software development, UI/UX design, graphics and architectural design, and more.
+            I am Mohammed Alsaqqaf, a visionary technologist, hacker, and creative mind, driven by innovation and the pursuit of digital excellence. My expertise spans cybersecurity, software development, UI/UX design, graphics and architectural design, and more.
           </p>
           <p className="text-sm sm:text-base text-slate-600 dark:text-gray-300 mb-4">
             With a passion for turning complex problems into elegant solutions, I merge technology, design, and strategy to create impactful digital experiences. As a CEO and creator, I thrive on building projects that push boundaries, challenge norms, and leave a lasting impression in the tech world.

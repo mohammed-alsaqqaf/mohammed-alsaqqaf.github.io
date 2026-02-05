@@ -31,9 +31,9 @@ const Security: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <SEO 
-        title="Security Services & Practices | EliTechWiz"
+        title="Security Services & Practices | Mohammed Alsaqqaf"
         description="Comprehensive cybersecurity services including penetration testing, vulnerability assessments, and security consulting."
-        url="https://www.elitechwiz.site/security"
+        url="https://www.Mohammed Alsaqqaf.site/security"
       />
       <ScrollProgress />
       <Header activeSection="" />
@@ -61,7 +61,7 @@ const Security: React.FC = () => {
           <motion.section variants={itemVariants} className="mb-8">
             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">Our Security Services</h2>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              EliTechWiz provides comprehensive cybersecurity services to help protect your business, systems, and data from threats. Our security expertise includes:
+              Mohammed Alsaqqaf provides comprehensive cybersecurity services to help protect your business, systems, and data from threats. Our security expertise includes:
             </p>
             <ul className="list-disc pl-6 mb-4 text-slate-600 dark:text-gray-300 space-y-2">
               <li><strong>Penetration Testing:</strong> Simulated attacks to identify vulnerabilities before malicious actors exploit them</li>
@@ -118,7 +118,7 @@ const Security: React.FC = () => {
             </p>
             <div className="bg-slate-100 dark:bg-slate-700/30 p-4 rounded-lg mb-4">
               <p className="text-slate-700 dark:text-gray-300 mb-2">
-                <strong>Email:</strong> <a href="mailto:contact@elitechwiz.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@elitechwiz.com</a>
+                <strong>Email:</strong> <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@Mohammed Alsaqqaf.com</a>
               </p>
               <p className="text-slate-700 dark:text-gray-300">
                 <strong>Phone:</strong> <a href="tel:+255688164510" className="text-blue-600 dark:text-blue-400 hover:underline">+255 688 164 510</a>

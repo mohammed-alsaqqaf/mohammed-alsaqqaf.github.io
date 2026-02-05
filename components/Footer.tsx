@@ -96,8 +96,8 @@ const Footer: React.FC<FooterProps> = (props) => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-sm text-slate-600 dark:text-gray-300">
                 <MailIcon className="w-4 h-4 text-blue-500" />
-                <a href="mailto:contact@elitechwiz.com" className="hover:text-blue-500 transition-colors">
-                  contact@elitechwiz.com
+                <a href="mailto:contact@Mohammed Alsaqqaf.com" className="hover:text-blue-500 transition-colors">
+                  contact@Mohammed Alsaqqaf.com
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-sm text-slate-600 dark:text-gray-300">
@@ -141,7 +141,7 @@ const Footer: React.FC<FooterProps> = (props) => {
               })}
             </div>
             <p className="text-xs sm:text-sm text-slate-500 dark:text-gray-300 text-center sm:text-left">
-              &copy; {new Date().getFullYear()} EliTechWiz. All rights reserved.
+              &copy; {new Date().getFullYear()} Mohammed Alsaqqaf. All rights reserved.
             </p>
           </div>
         </div>

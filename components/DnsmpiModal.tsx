@@ -19,7 +19,7 @@ const DnsmpiModal: React.FC<ModalProps> = ({ onClose }) => {
                     <h2 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">Do Not Share My Personal Information</h2>
                     <p className="mb-4 text-slate-600 dark:text-gray-400">This is a placeholder for the "Do Not Share My Personal Information" page. Under the CCPA, you have the right to opt-out of the sale of your personal information. </p>
                     <p className="mb-4 text-slate-600 dark:text-gray-400">We do not sell your personal information. However, we support the CCPA by allowing California residents to opt-out of any future sale of their personal information.</p>
-                    <p className="mb-4 text-slate-600 dark:text-gray-400">If you would like to record your preference that we do not sell your data, please contact us at <a href="mailto:privacy@elitechwiz.com" className="text-blue-500 hover:underline">privacy@elitechwiz.com</a>.</p>
+                    <p className="mb-4 text-slate-600 dark:text-gray-400">If you would like to record your preference that we do not sell your data, please contact us at <a href="mailto:privacy@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">privacy@Mohammed Alsaqqaf.com</a>.</p>
                     <div className="mt-6 text-right">
                         <button onClick={onClose} className="px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors">Close</button>
                     </div>

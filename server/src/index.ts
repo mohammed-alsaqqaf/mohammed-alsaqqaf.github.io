@@ -94,8 +94,8 @@ app.set('trust proxy', 1);
 // CORS configuration
 const allowedOrigins = [
   process.env.FRONTEND_URL,
-  'https://www.elitechwiz.site',
-  'https://elitechwiz.site'
+  'https://www.Mohammed Alsaqqaf.site',
+  'https://Mohammed Alsaqqaf.site'
 ].filter(Boolean) as string[];
 
 app.use(cors({

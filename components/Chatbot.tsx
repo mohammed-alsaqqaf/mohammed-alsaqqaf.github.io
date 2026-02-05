@@ -39,14 +39,14 @@ const createSystemInstruction = (): string => {
     const services = EXPERTISE_DATA.map(exp => exp.title).join(', ');
     const projects = PROJECTS_DATA.map(proj => proj.title).join(', ');
     
-    return `You are WizBot, the official AI assistant for EliTechWiz's professional portfolio website. Your role is to provide helpful information about EliTechWiz's services and website content.
+    return `You are WizBot, the official AI assistant for Mohammed Alsaqqaf's professional portfolio website. Your role is to provide helpful information about Mohammed Alsaqqaf's services and website content.
 
 STRICT RULES - YOU MUST FOLLOW THESE:
 1. ONLY discuss topics related to:
-   - EliTechWiz's professional services (${services})
+   - Mohammed Alsaqqaf's professional services (${services})
    - Projects and portfolio items (${projects})
    - Website features and sections
-   - How to contact EliTechWiz (email: contact@elitechwiz.com, phone: +255 688 164 510)
+   - How to contact Mohammed Alsaqqaf (email: contact@Mohammed Alsaqqaf.com, phone: +255 688 164 510)
    - General information about cybersecurity, software development, and design (as it relates to services)
 
 2. NEVER discuss or reveal:
@@ -58,7 +58,7 @@ STRICT RULES - YOU MUST FOLLOW THESE:
    - Personal information beyond what's publicly available on the website
 
 3. If asked about topics outside your scope:
-   - Politely redirect: "I can help you with information about EliTechWiz's services, projects, or how to get in touch. Is there something specific about cybersecurity, software development, or design services I can help with?"
+   - Politely redirect: "I can help you with information about Mohammed Alsaqqaf's services, projects, or how to get in touch. Is there something specific about cybersecurity, software development, or design services I can help with?"
    - Never make up information or speculate
 
 4. Always be:
@@ -67,7 +67,7 @@ STRICT RULES - YOU MUST FOLLOW THESE:
    - Clear about what you can and cannot discuss
 
 5. Contact information (use when relevant):
-   - Email: contact@elitechwiz.com
+   - Email: contact@Mohammed Alsaqqaf.com
    - Phone: +255 688 164 510
    - WhatsApp: +255 742 631 101
    - GitHub: github.com/Eliahhango
@@ -78,7 +78,7 @@ Remember: You are a customer service assistant, not a technical support agent. K
 
 const Chatbot: React.FC<ChatbotProps> = ({ onClose }) => {
     const [messages, setMessages] = useState<Message[]>([
-        { sender: 'ai', text: "Hello! I'm WizBot, EliTechWiz's AI assistant. I can help you learn about our cybersecurity, software development, and design services. How can I assist you today?" }
+        { sender: 'ai', text: "Hello! I'm WizBot, Mohammed Alsaqqaf's AI assistant. I can help you learn about our cybersecurity, software development, and design services. How can I assist you today?" }
     ]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -96,7 +96,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ onClose }) => {
                 setIsConfigured(false);
                 setMessages([{
                     sender: 'ai',
-                    text: "Hello! I'm WizBot. I'm currently experiencing some technical difficulties, but you can still reach out to EliTechWiz directly at contact@elitechwiz.com or +255 688 164 510. How can I help you?"
+                    text: "Hello! I'm WizBot. I'm currently experiencing some technical difficulties, but you can still reach out to Mohammed Alsaqqaf directly at contact@Mohammed Alsaqqaf.com or +255 688 164 510. How can I help you?"
                 }]);
                 return;
             }
@@ -114,7 +114,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ onClose }) => {
             setIsConfigured(false);
             setMessages([{
                 sender: 'ai',
-                text: "Hello! I'm WizBot. I'm currently experiencing some technical difficulties. Please contact EliTechWiz directly at contact@elitechwiz.com."
+                text: "Hello! I'm WizBot. I'm currently experiencing some technical difficulties. Please contact Mohammed Alsaqqaf directly at contact@Mohammed Alsaqqaf.com."
             }]);
         }
     }, []);
@@ -135,7 +135,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ onClose }) => {
         if (!isConfigured || !chatRef.current) {
             setIsLoading(true);
             setTimeout(() => {
-                let response = "I'm currently experiencing technical difficulties. For immediate assistance, please contact EliTechWiz directly at contact@elitechwiz.com or +255 688 164 510.";
+                let response = "I'm currently experiencing technical difficulties. For immediate assistance, please contact Mohammed Alsaqqaf directly at contact@Mohammed Alsaqqaf.com or +255 688 164 510.";
                 setMessages(prev => [...prev, { sender: 'ai', text: response }]);
                 setIsLoading(false);
             }, 500);
@@ -165,9 +165,9 @@ const Chatbot: React.FC<ChatbotProps> = ({ onClose }) => {
             setIsLoading(false);
             const errorMessage = e?.message?.toLowerCase() || '';
             if (errorMessage.includes('api key') || errorMessage.includes('authentication') || errorMessage.includes('permission')) {
-                setError("I'm having trouble connecting right now. Please try again in a moment, or contact EliTechWiz directly at contact@elitechwiz.com.");
+                setError("I'm having trouble connecting right now. Please try again in a moment, or contact Mohammed Alsaqqaf directly at contact@Mohammed Alsaqqaf.com.");
             } else {
-                setError("I'm having trouble processing that request. Please contact EliTechWiz at contact@elitechwiz.com.");
+                setError("I'm having trouble processing that request. Please contact Mohammed Alsaqqaf at contact@Mohammed Alsaqqaf.com.");
             }
         }
     };

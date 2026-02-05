@@ -34,17 +34,17 @@ const TermsModal: React.FC<ModalProps> = ({ onClose }) => {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">1. Service Agreement</h2>
                             <p className="mb-4 text-slate-600 dark:text-gray-400 leading-relaxed">
-                                By engaging with EliTechWiz's services, including but not limited to cybersecurity consulting, penetration testing, software development, system architecture, UI/UX design, and related professional services, you agree to be bound by these Terms of Service.
+                                By engaging with Mohammed Alsaqqaf's services, including but not limited to cybersecurity consulting, penetration testing, software development, system architecture, UI/UX design, and related professional services, you agree to be bound by these Terms of Service.
                             </p>
                             <p className="mb-4 text-slate-600 dark:text-gray-400 leading-relaxed">
-                                These Terms govern the relationship between you (the "Client") and EliTechWiz ("Service Provider") regarding the provision of professional technology and security services.
+                                These Terms govern the relationship between you (the "Client") and Mohammed Alsaqqaf ("Service Provider") regarding the provision of professional technology and security services.
                             </p>
                         </section>
 
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">2. Services Offered</h2>
                             <p className="mb-4 text-slate-600 dark:text-gray-400 leading-relaxed">
-                                EliTechWiz provides the following professional services:
+                                Mohammed Alsaqqaf provides the following professional services:
                             </p>
                             <ul className="list-disc pl-6 mb-4 text-slate-600 dark:text-gray-400 space-y-2">
                                 <li><strong>Cybersecurity Services:</strong> Penetration testing, vulnerability assessments, security audits, network security, ethical hacking, and security consulting</li>
@@ -103,9 +103,9 @@ const TermsModal: React.FC<ModalProps> = ({ onClose }) => {
                             </p>
                             <ul className="list-disc pl-6 mb-4 text-slate-600 dark:text-gray-400 space-y-2">
                                 <li>All work products, code, designs, and deliverables created specifically for the Client become the Client's property upon full payment</li>
-                                <li>EliTechWiz retains rights to methodologies, tools, frameworks, and general knowledge developed independently</li>
+                                <li>Mohammed Alsaqqaf retains rights to methodologies, tools, frameworks, and general knowledge developed independently</li>
                                 <li>Pre-existing intellectual property remains with its original owner</li>
-                                <li>Client grants EliTechWiz permission to use project outcomes (anonymized) for portfolio and marketing purposes unless otherwise specified</li>
+                                <li>Client grants Mohammed Alsaqqaf permission to use project outcomes (anonymized) for portfolio and marketing purposes unless otherwise specified</li>
                             </ul>
                         </section>
 
@@ -134,8 +134,8 @@ const TermsModal: React.FC<ModalProps> = ({ onClose }) => {
                                 <li>Client must provide written authorization before any security testing begins</li>
                                 <li>Testing will be conducted within the agreed scope and boundaries</li>
                                 <li>Client is responsible for backing up systems before testing</li>
-                                <li>EliTechWiz will follow responsible disclosure practices for any vulnerabilities found</li>
-                                <li>Client agrees not to hold EliTechWiz liable for any disruption caused by authorized security testing</li>
+                                <li>Mohammed Alsaqqaf will follow responsible disclosure practices for any vulnerabilities found</li>
+                                <li>Client agrees not to hold Mohammed Alsaqqaf liable for any disruption caused by authorized security testing</li>
                             </ul>
                         </section>
 
@@ -145,8 +145,8 @@ const TermsModal: React.FC<ModalProps> = ({ onClose }) => {
                                 To the maximum extent permitted by law:
                             </p>
                             <ul className="list-disc pl-6 mb-4 text-slate-600 dark:text-gray-400 space-y-2">
-                                <li>EliTechWiz's total liability shall not exceed the fees paid for the specific service in question</li>
-                                <li>EliTechWiz is not liable for indirect, incidental, or consequential damages</li>
+                                <li>Mohammed Alsaqqaf's total liability shall not exceed the fees paid for the specific service in question</li>
+                                <li>Mohammed Alsaqqaf is not liable for indirect, incidental, or consequential damages</li>
                                 <li>Security services are provided on an "as-is" basis - no guarantee of complete security</li>
                                 <li>Client is responsible for implementing recommended security measures</li>
                             </ul>
@@ -173,7 +173,7 @@ const TermsModal: React.FC<ModalProps> = ({ onClose }) => {
                             </p>
                             <div className="bg-slate-100 dark:bg-gray-900 p-4 rounded-lg mb-4">
                                 <p className="text-slate-700 dark:text-gray-300 mb-2">
-                                    <strong>Email:</strong> <a href="mailto:contact@elitechwiz.com" className="text-blue-500 hover:underline">contact@elitechwiz.com</a>
+                                    <strong>Email:</strong> <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-500 hover:underline">contact@Mohammed Alsaqqaf.com</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300 mb-2">
                                     <strong>Phone:</strong> <a href="tel:+255688164510" className="text-blue-500 hover:underline">+255 688 164 510</a>

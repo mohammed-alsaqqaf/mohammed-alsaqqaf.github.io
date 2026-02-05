@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
                     className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-tight"
                 >
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-900 via-blue-700 to-slate-900 dark:from-white dark:via-blue-400 dark:to-white">
-                        I Am EliTechWiz
+                        I Am Mohammed Alsaqqaf
                     </span>
                     <br />
                     A <Typewriter words={['Cybersecurity Expert', 'Software Architect', 'Creative Designer', 'Visionary Hacker']} />

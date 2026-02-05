@@ -31,9 +31,9 @@ const Terms: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <SEO 
-        title="Terms of Service | EliTechWiz"
-        description="Terms of Service for EliTechWiz professional services including cybersecurity, software development, and design services."
-        url="https://www.elitechwiz.site/terms"
+        title="Terms of Service | Mohammed Alsaqqaf"
+        description="Terms of Service for Mohammed Alsaqqaf professional services including cybersecurity, software development, and design services."
+        url="https://www.Mohammed Alsaqqaf.site/terms"
       />
       <ScrollProgress />
       <Header activeSection="" />
@@ -61,17 +61,17 @@ const Terms: React.FC = () => {
           <motion.section variants={itemVariants} className="mb-8">
             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">1. Service Agreement</h2>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              By engaging with EliTechWiz's services, including but not limited to cybersecurity consulting, penetration testing, software development, system architecture, UI/UX design, and related professional services, you agree to be bound by these Terms of Service.
+              By engaging with Mohammed Alsaqqaf's services, including but not limited to cybersecurity consulting, penetration testing, software development, system architecture, UI/UX design, and related professional services, you agree to be bound by these Terms of Service.
             </p>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              These Terms govern the relationship between you (the "Client") and EliTechWiz ("Service Provider") regarding the provision of professional technology and security services.
+              These Terms govern the relationship between you (the "Client") and Mohammed Alsaqqaf ("Service Provider") regarding the provision of professional technology and security services.
             </p>
           </motion.section>
 
           <motion.section variants={itemVariants} className="mb-8">
             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">2. Services Offered</h2>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              EliTechWiz provides the following professional services:
+              Mohammed Alsaqqaf provides the following professional services:
             </p>
             <ul className="list-disc pl-6 mb-4 text-slate-600 dark:text-gray-300 space-y-2">
               <li><strong>Cybersecurity Services:</strong> Penetration testing, vulnerability assessments, security audits, network security, ethical hacking, and security consulting</li>
@@ -97,14 +97,14 @@ const Terms: React.FC = () => {
           <motion.section variants={itemVariants} className="mb-8">
             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">4. Intellectual Property</h2>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              Unless otherwise agreed in writing, all work product, code, designs, and deliverables created by EliTechWiz remain the property of EliTechWiz until full payment is received. Upon full payment, ownership rights as specified in the service agreement will apply.
+              Unless otherwise agreed in writing, all work product, code, designs, and deliverables created by Mohammed Alsaqqaf remain the property of Mohammed Alsaqqaf until full payment is received. Upon full payment, ownership rights as specified in the service agreement will apply.
             </p>
           </motion.section>
 
           <motion.section variants={itemVariants} className="mb-8">
             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">5. Limitation of Liability</h2>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              EliTechWiz's liability is limited to the amount paid for the specific service. We are not liable for indirect, incidental, or consequential damages arising from the use of our services.
+              Mohammed Alsaqqaf's liability is limited to the amount paid for the specific service. We are not liable for indirect, incidental, or consequential damages arising from the use of our services.
             </p>
           </motion.section>
 
@@ -114,7 +114,7 @@ const Terms: React.FC = () => {
               For questions about these Terms, please contact us at:
             </p>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              Email: <a href="mailto:contact@elitechwiz.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@elitechwiz.com</a><br />
+              Email: <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@Mohammed Alsaqqaf.com</a><br />
               Phone: <a href="tel:+255688164510" className="text-blue-600 dark:text-blue-400 hover:underline">+255 688 164 510</a>
             </p>
           </motion.section>

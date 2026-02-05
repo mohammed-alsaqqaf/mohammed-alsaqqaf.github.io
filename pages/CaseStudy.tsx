@@ -41,8 +41,8 @@ const CaseStudy: React.FC = () => {
         title={fm.title}
         description={fm.summary}
         type="article"
-        canonical={`https://www.elitechwiz.site/case-studies/${slug}`}
-        url={`https://www.elitechwiz.site/case-studies/${slug}`}
+        canonical={`https://www.Mohammed Alsaqqaf.site/case-studies/${slug}`}
+        url={`https://www.Mohammed Alsaqqaf.site/case-studies/${slug}`}
       />
       <div className="max-w-3xl mx-auto px-4">
         <Link to="/case-studies" className="text-blue-600 underline">← Back</Link>

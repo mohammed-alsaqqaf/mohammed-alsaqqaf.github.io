@@ -31,9 +31,9 @@ const DNSMPI: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <SEO 
-        title="Do Not Sell My Personal Information | EliTechWiz"
+        title="Do Not Sell My Personal Information | Mohammed Alsaqqaf"
         description="Opt-out of the sale of your personal information. We do not sell your data, but you can record your preference here."
-        url="https://www.elitechwiz.site/dnsmpi"
+        url="https://www.Mohammed Alsaqqaf.site/dnsmpi"
       />
       <ScrollProgress />
       <Header activeSection="" />
@@ -84,10 +84,10 @@ const DNSMPI: React.FC = () => {
             </p>
             <div className="bg-slate-100 dark:bg-slate-700/30 p-4 rounded-lg mb-4">
               <p className="text-slate-700 dark:text-gray-300 mb-2">
-                <strong>Privacy Officer:</strong> <a href="mailto:privacy@elitechwiz.com" className="text-blue-600 dark:text-blue-400 hover:underline">privacy@elitechwiz.com</a>
+                <strong>Privacy Officer:</strong> <a href="mailto:privacy@Mohammed Alsaqqaf.com" className="text-blue-600 dark:text-blue-400 hover:underline">privacy@Mohammed Alsaqqaf.com</a>
               </p>
               <p className="text-slate-700 dark:text-gray-300 mb-2">
-                <strong>General Contact:</strong> <a href="mailto:contact@elitechwiz.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@elitechwiz.com</a>
+                <strong>General Contact:</strong> <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@Mohammed Alsaqqaf.com</a>
               </p>
               <p className="text-slate-700 dark:text-gray-300">
                 <strong>Phone:</strong> <a href="tel:+255688164510" className="text-blue-600 dark:text-blue-400 hover:underline">+255 688 164 510</a>

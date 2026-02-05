@@ -36,7 +36,7 @@ const Downloads: React.FC = () => {
 
   return (
     <section className="pt-24 pb-16">
-      <SEO title="Downloads | EliTechWiz" description="Free resources and checklists." canonical="https://www.elitechwiz.site/downloads" url="https://www.elitechwiz.site/downloads" />
+      <SEO title="Downloads | Mohammed Alsaqqaf" description="Free resources and checklists." canonical="https://www.Mohammed Alsaqqaf.site/downloads" url="https://www.Mohammed Alsaqqaf.site/downloads" />
       <div className="max-w-3xl mx-auto px-4">
         <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white">Free Resources</h1>
         {!unlocked ? (

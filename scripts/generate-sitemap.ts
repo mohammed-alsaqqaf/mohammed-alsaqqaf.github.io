@@ -2,7 +2,7 @@
 // The actual build-time script is generate-sitemap.mjs (plain Node ESM).
 export {};
 
-const BASE_URL = process.env.SITE_URL || 'https://www.elitechwiz.site';
+const BASE_URL = process.env.SITE_URL || 'https://www.Mohammed Alsaqqaf.site';
 
 // Add routes you want indexed here. Dynamic routes can be listed as needed.
 const routes: string[] = [

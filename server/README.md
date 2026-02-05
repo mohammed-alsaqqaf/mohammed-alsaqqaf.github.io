@@ -1,6 +1,6 @@
 # Portfolio Backend API
 
-Backend server for the EliTechWiz Portfolio admin dashboard.
+Backend server for the Mohammed Alsaqqaf Portfolio admin dashboard.
 
 ## Setup
 

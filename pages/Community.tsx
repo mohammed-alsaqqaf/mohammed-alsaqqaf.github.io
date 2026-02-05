@@ -56,9 +56,9 @@ const Community: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <SEO 
-        title="Join Our Community | EliTechWiz"
+        title="Join Our Community | Mohammed Alsaqqaf"
         description="Connect with cybersecurity professionals, developers, and technology enthusiasts. Share knowledge and collaborate on projects."
-        url="https://www.elitechwiz.site/community"
+        url="https://www.Mohammed Alsaqqaf.site/community"
       />
       <ScrollProgress />
       <Header activeSection="" />

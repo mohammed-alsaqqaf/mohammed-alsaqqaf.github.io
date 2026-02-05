@@ -31,9 +31,9 @@ const Docs: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <SEO 
-        title="Service Documentation | EliTechWiz"
-        description="Comprehensive documentation for EliTechWiz services including cybersecurity, software development, and design services."
-        url="https://www.elitechwiz.site/docs"
+        title="Service Documentation | Mohammed Alsaqqaf"
+        description="Comprehensive documentation for Mohammed Alsaqqaf services including cybersecurity, software development, and design services."
+        url="https://www.Mohammed Alsaqqaf.site/docs"
       />
       <ScrollProgress />
       <Header activeSection="" />
@@ -58,7 +58,7 @@ const Docs: React.FC = () => {
           <motion.section variants={itemVariants} className="mb-8">
             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">About Our Services</h2>
             <p className="mb-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-              EliTechWiz provides professional technology services including cybersecurity consulting, software development, system architecture, and design services. This documentation provides information about our service offerings, processes, and how to engage with us.
+              Mohammed Alsaqqaf provides professional technology services including cybersecurity consulting, software development, system architecture, and design services. This documentation provides information about our service offerings, processes, and how to engage with us.
             </p>
           </motion.section>
 
@@ -122,7 +122,7 @@ const Docs: React.FC = () => {
             </p>
             <div className="bg-slate-100 dark:bg-slate-700/30 p-4 rounded-lg mb-4">
               <p className="text-slate-700 dark:text-gray-300 mb-2">
-                <strong>Email:</strong> <a href="mailto:contact@elitechwiz.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@elitechwiz.com</a>
+                <strong>Email:</strong> <a href="mailto:contact@Mohammed Alsaqqaf.com" className="text-blue-600 dark:text-blue-400 hover:underline">contact@Mohammed Alsaqqaf.com</a>
               </p>
               <p className="text-slate-700 dark:text-gray-300">
                 <strong>Phone:</strong> <a href="tel:+255688164510" className="text-blue-600 dark:text-blue-400 hover:underline">+255 688 164 510</a>

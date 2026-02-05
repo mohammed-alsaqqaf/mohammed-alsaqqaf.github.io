@@ -188,13 +188,13 @@ export const PROJECTS_DATA: Project[] = [
 // --- TESTIMONIALS ---
 export const TESTIMONIALS_DATA = [
     {
-        quote: "EliTechWiz's development skill is exceptional. The project was delivered on time and exceeded our expectations in every way. A true professional.",
+        quote: "Mohammed Alsaqqaf's development skill is exceptional. The project was delivered on time and exceeded our expectations in every way. A true professional.",
         name: 'sirtheprogrammer',
         company: 'Lead Developer @ codeskytz',
         avatarUrl: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=160',
     },
     {
-        quote: "When it comes to cybersecurity, there's no one I trust more. EliTechWiz identified critical vulnerabilities that others missed. Absolutely essential for any serious company.",
+        quote: "When it comes to cybersecurity, there's no one I trust more. Mohammed Alsaqqaf identified critical vulnerabilities that others missed. Absolutely essential for any serious company.",
         name: 'Mrcyber',
         company: 'Security Analyst',
         avatarUrl: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=160',
@@ -212,7 +212,7 @@ export const TESTIMONIALS_DATA = [
         avatarUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=160',
     },
     {
-        quote: "EliTechWiz has a hacker's mindset with an architect's precision. Their ability to think outside the box is a huge asset to any project.",
+        quote: "Mohammed Alsaqqaf has a hacker's mindset with an architect's precision. Their ability to think outside the box is a huge asset to any project.",
         name: 'Eliot Anderson',
         company: 'Cybersecurity Strategist',
         avatarUrl: 'https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=160',
@@ -224,7 +224,7 @@ export const TESTIMONIALS_DATA = [
         avatarUrl: 'https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=160',
     },
     {
-        quote: "Working with EliTechWiz was a game-changer. The UI/UX design they delivered was intuitive and aesthetically pleasing, significantly boosting user engagement.",
+        quote: "Working with Mohammed Alsaqqaf was a game-changer. The UI/UX design they delivered was intuitive and aesthetically pleasing, significantly boosting user engagement.",
         name: 'Emily Johnson',
         company: 'Product Manager at Creative Solutions',
         avatarUrl: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=160',
@@ -236,7 +236,7 @@ export const TESTIMONIALS_DATA = [
         avatarUrl: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=160',
     },
     {
-        quote: "EliTechWiz transformed our security posture. Their expertise is unmatched, and their approach is both professional and innovative.",
+        quote: "Mohammed Alsaqqaf transformed our security posture. Their expertise is unmatched, and their approach is both professional and innovative.",
         name: 'Jane Doe',
         company: 'CEO of TechCorp',
         avatarUrl: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=160',

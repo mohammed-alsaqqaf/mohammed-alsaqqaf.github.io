@@ -97,9 +97,9 @@ const Status: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <SEO 
-        title="Service Status | EliTechWiz"
-        description="Real-time status of all EliTechWiz services including cybersecurity, software development, and consulting services."
-        url="https://www.elitechwiz.site/status"
+        title="Service Status | Mohammed Alsaqqaf"
+        description="Real-time status of all Mohammed Alsaqqaf services including cybersecurity, software development, and consulting services."
+        url="https://www.Mohammed Alsaqqaf.site/status"
       />
       <ScrollProgress />
       <Header activeSection="" />
