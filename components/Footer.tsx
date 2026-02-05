@@ -42,7 +42,7 @@ const Footer: React.FC<FooterProps> = (props) => {
           {/* Brand Section */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4">
-              <span className="text-blue-500">Eli</span>TechWiz
+              <span className="text-blue-500">Mohammed</span>Al-Saqqaf
             </h3>
             <p className="text-sm text-slate-600 dark:text-gray-300 mb-4">
               Cybersecurity Expert, Software Architect & Creative Designer. Building secure, innovative digital experiences.

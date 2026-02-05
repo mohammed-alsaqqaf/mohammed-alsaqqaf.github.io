@@ -50,7 +50,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
                         className="text-2xl sm:text-3xl font-bold tracking-tighter text-slate-900 dark:text-white cursor-pointer" 
                         onClick={(e) => onSectionClick(e, '#home')}
                     >
-                        <span className="text-blue-500">Eli</span>TechWiz
+                        <span className="text-blue-500">Mohammed</span>Alsaqqaf
                     </a>
                     <div className="hidden md:flex items-center space-x-8">
                         {NAV_LINKS.map(link => {
