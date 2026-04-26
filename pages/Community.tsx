@@ -14,14 +14,14 @@ const Community: React.FC = () => {
       name: 'GitHub',
       description: 'Explore open-source security tools, development projects, and contribute to cybersecurity initiatives',
       icon: GithubIcon,
-      href: 'https://github.com/Eliahhango',
+      href: 'https://github.com/',
       color: 'bg-slate-800 hover:bg-slate-900'
     },
     {
       name: 'YouTube',
       description: 'Watch cybersecurity tutorials, penetration testing walkthroughs, and software development content',
       icon: YoutubeIcon,
-      href: 'https://youtube.com/@eliahhango',
+      href: 'https://youtube.com/@',
       color: 'bg-red-600 hover:bg-red-700'
     },
     {

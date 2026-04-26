@@ -12,14 +12,14 @@ const CommunityModal: React.FC<ModalProps> = ({ onClose }) => {
             name: 'GitHub',
             description: 'Explore open-source security tools, development projects, and contribute to cybersecurity initiatives',
             icon: GithubIcon,
-            href: 'https://github.com/Eliahhango',
+            href: 'https://github.com/',
             color: 'bg-slate-800 hover:bg-slate-900'
         },
         {
             name: 'YouTube',
             description: 'Watch cybersecurity tutorials, penetration testing walkthroughs, and software development content',
             icon: YoutubeIcon,
-            href: 'https://youtube.com/@eliahhango',
+            href: 'https://youtube.com/@',
             color: 'bg-red-600 hover:bg-red-700'
         },
         {
@@ -161,7 +161,7 @@ const CommunityModal: React.FC<ModalProps> = ({ onClose }) => {
                                     <strong>Phone:</strong> <a href="tel:+967779080460" className="text-blue-500 hover:underline">+967 779 080 460</a>
                                 </p>
                                 <p className="text-slate-700 dark:text-gray-300">
-                                    <strong>GitHub:</strong> <a href="https://github.com/Eliahhango" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">@Eliahhango</a>
+                                    <strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">@</a>
                                 </p>
                             </div>
                         </section>

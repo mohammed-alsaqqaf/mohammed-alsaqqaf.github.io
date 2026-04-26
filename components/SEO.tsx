@@ -13,7 +13,7 @@ const DEFAULTS = {
   title: 'Mohammed Alsaqqaf | Cybersecurity Expert & Software Architect',
   description:
     'Secure, innovative software and design. Cybersecurity, full‑stack engineering, and architecture with impact.',
-  image: 'https://files.catbox.moe/qgbtyt.png',
+  image: '',
   url: 'https://www.Mohammed Alsaqqaf.site/'
 };
 
@@ -81,14 +81,14 @@ const SEO: React.FC<SEOProps> = ({ title = DEFAULTS.title, description = DEFAULT
       '@type': 'Person',
       name: 'Mohammed Alsaqqaf',
       url: 'https://www.Mohammed Alsaqqaf.site',
-      image: 'https://files.catbox.moe/qgbtyt.png',
+      image: '',
       jobTitle: 'Cybersecurity Expert & Software Architect',
       description: 'Visionary technologist, hacker, and creative mind. Expertise in cybersecurity, software development, UI/UX design, and architectural design.',
       email: 'mohammed.dev0xinj@gmail.com',
       telephone: '+967779080460',
       sameAs: [
-        'https://github.com/Eliahhango',
-        'https://youtube.com/@eliahhango'
+        '',
+        ''
       ],
       knowsAbout: [
         'Cybersecurity',

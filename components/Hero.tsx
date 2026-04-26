@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
                     >
                         Let's Innovate Together
                     </a>
-                    <a href="https://github.com/Eliahhango" target="_blank" rel="noopener noreferrer" className="px-8 sm:px-10 py-3 sm:py-4 bg-slate-200 dark:bg-slate-800/50 dark:border dark:border-slate-700/50 text-slate-800 dark:text-gray-100 font-semibold rounded-xl shadow-lg hover:bg-slate-300 dark:hover:bg-slate-700/50 dark:hover:border-blue-500/50 dark:hover:shadow-blue-500/20 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="px-8 sm:px-10 py-3 sm:py-4 bg-slate-200 dark:bg-slate-800/50 dark:border dark:border-slate-700/50 text-slate-800 dark:text-gray-100 font-semibold rounded-xl shadow-lg hover:bg-slate-300 dark:hover:bg-slate-700/50 dark:hover:border-blue-500/50 dark:hover:shadow-blue-500/20 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">
                         <GithubIcon className="w-5 h-5" /> GitHub
                     </a>
                 </motion.div>

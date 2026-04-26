@@ -27,8 +27,8 @@ const FOOTER_LINKS_DATA = [
 
 const Footer: React.FC<FooterProps> = (props) => {
   const socialLinks = [
-    { Icon: GithubIcon, href: 'https://github.com/Eliahhango', label: 'GitHub' },
-    { Icon: YoutubeIcon, href: 'https://youtube.com/@eliahhango', label: 'YouTube' },
+    { Icon: GithubIcon, href: 'https://github.com/', label: 'GitHub' },
+    { Icon: YoutubeIcon, href: 'https://youtube.com/@', label: 'YouTube' },
     { Icon: LinkedInIcon, href: '#', label: 'LinkedIn' },
     { Icon: TwitterIcon, href: '#', label: 'Twitter' },
     { Icon: FacebookIcon, href: '#', label: 'Facebook' },

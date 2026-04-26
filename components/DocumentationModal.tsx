@@ -153,7 +153,7 @@ const DocumentationModal: React.FC<ModalProps> = ({ onClose }) => {
                             <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-900 dark:text-white">Resources</h2>
                             <div className="space-y-3">
                                 <a 
-                                    href="https://github.com/Eliahhango" 
+                                    href="https://github.com/" 
                                     target="_blank" 
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2 p-3 bg-slate-100 dark:bg-gray-800 rounded-lg hover:bg-slate-200 dark:hover:bg-gray-700 transition-colors"
